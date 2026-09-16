@@ -128,8 +128,8 @@ will lead to better results”.
 Sample Output:
 Enter your score (0 to 10): 7
 
- #Python Assignment 3–While Loop, For Loop, and Function
- Assignment Task Overview
+**Python Assignment 3–While Loop, For Loop, and Function**
+     Assignment Task Overview
 This assignment focuses on implementing loops, control statements, and functions in Python.
 The objective is to develop an understanding of:
 ● Iteration using a while loop and a for loop
