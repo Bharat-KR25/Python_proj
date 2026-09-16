@@ -121,9 +121,63 @@ a. Above Average: Score greater than 7
 b. Average: Score between 4 and 7 (both inclusive)
 c. Below Average: Score less than 4
 3. Output: Print the Performance category
-4. Additional Step: You can give a prompt of your choice to each category. For example, if
+5. Additional Step: You can give a prompt of your choice to each category. For example, if
 the score is below average, “Need to improve your performance; consistent practice
 will lead to better results”.
 
 Sample Output:
 Enter your score (0 to 10): 7
+
+ #Python Assignment 3–While Loop, For Loop, and Function
+ Assignment Task Overview
+This assignment focuses on implementing loops, control statements, and functions in Python.
+The objective is to develop an understanding of:
+● Iteration using a while loop and a for loop
+● Control statements such as break, continue, pass, and else
+● Function creation and usage
+● Logical problem-solving using real-world examples
+You will build programs, including a number guessing game, a multiplication table generator, and a
+BMI calculator.
+Tasks:
+Task 1: While Loop & Control Statements -Number Guessing Game
+Problem Statement: Create a Python program that implements a simple number guessing
+game using a while loop. The program should make use of control statements such as else,
+break, and continue.
+Instructions:
+1. Set Up the Game:
+★ Generate a random number between 1 and 10 that the user has to guess.
+Import random and use randint function.
+2. Prompt the User:
+★ Ask the user to guess the number.
+★ Set a variable attempts to 3, which represents the maximum number of
+guesses allowed.
+
+3. Implement the Guessing Logic:
+★ Use a while loop to allow the user to keep guessing until they get the correct
+number or run out of attempts.
+★ Provide feedback to the user for each guess:
+
+➢ If the guess is out of the valid range (1 to 10), inform the user.
+➢ If the guess is greater than the secret number.
+➢ If the guess is lower than the secret number.
+➢ If the guess is correct, congratulate the user and end the game.
+
+4. Control Statements:
+★ Use continue to skip the rest of the loop after informing the user if the guess is
+out of range.
+★ Use break to exit the loop when the guess is correct.
+★ Use else with the while loop to provide a message like "Better luck next time!"
+if the user runs out of attempts without guessing the correct number.
+
+Task 2:- For Loop - Multiplication Table Generator
+
+Problem Statement: Create a Python program that generates and prints a multiplication
+table (from 1 to 10) for a given number using a for loop and the range function.
+Step-wise Instructions:
+1. Prompt user for input. Ask the user to enter a number for which they want to generate
+a multiplication table.
+2. Generate the Multiplication Table: Use a for loop to iterate through the numbers 1 to
+10. In each iteration, calculate the product of the user's number and the current
+number from the loop.
+3. Display the Multiplication Table:
+Print each line of the multiplication table in the format "number x i = result."
