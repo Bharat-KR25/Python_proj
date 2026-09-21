@@ -183,3 +183,82 @@ a multiplication table.
 number from the loop.
 3. Display the Multiplication Table:
 Print each line of the multiplication table in the format "number x i = result."
+
+Assignment Task Overview
+Project Title: Customer Support Ticket Analyser
+Problem Statement
+Customer support teams handle numerous service tickets daily. Analysing support tickets helps
+identify common issues, customer sentiment, support quality, and areas for improvement.
+In this project, you will build a Python-based Ticket Analysis System that stores, cleans, analyses,
+and extracts insights from customer support tickets.
+
+Step 1: Preloaded Tickets
+
+Begin your program with the following dictionary of lists containing 10 customer tickets:
+ticket_data = { 'Ticket_No': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+'Customer_Name': [ 'Ravi', 'Meera', 'Sam', 'Anu', 'Rakesh', 'Divya', 'Arjun', 'Kiran', 'Leela', 'Nisha'
+],
+'Issue_Description': [
+' Internet not working!!! ', 'slow response, very poor service ',
+'GREAT support! issue resolved.',' okay... need help ', 'not BAD but slow', 'Excellent guidance, Very Helpful!',
+'good support and good behaviour!', 'Poor handling of technical issue', 'Satisfied. Could be better.', 'Good service...
+quick response.'
+],
+'Priority': ['High', 'Low', 'High', 'Medium', 'Low', 'High', 'Medium', 'High', 'Low', 'Medium']}
+print(ticket_data)
+
+● Task: Print the initial ticket data in a readable format.
+
+Step 2: Add More Tickets
+❖ Ask the user: How many new tickets do you want to add?
+❖ For each new ticket, collect:
+➢ Customer Name
+➢ Issue Description
+➢ Priority (High / Medium / Low)
+Requirements:
+● Ticket numbers must auto-increment starting from 11.
+● Validate priority (accept only High, Medium, Low).
+● Append new data to ticket_data.
+
+Step 3: Text Cleaning for Issue Descriptions
+❖ Clean all issue descriptions by applying:
+➢ Remove punctuation (.,!?-)
+➢ Convert multiple spaces → single space
+➢ Remove leading/trailing spaces
+➢ Convert text to lowercase
+➢ Replace slang/shorthand (example: "ok" → "okay")
+❖ Hints:
+Use .replace(), .split(), ' '.join(), .strip(), .lower().
+Step 4: Keyword-Based Issue Insights
+Create a function:
+def count_tickets_with_word(word):
+Function Requirements:
+● Case-insensitive search
+● Returns how many ticket descriptions contain the given word
+
+Use this function to print:
+● Number of tickets containing "poor"
+● Number of tickets containing "good"
+● Number of tickets containing "slow"
+● Number of tickets containing "excellent"
+
+Step 5: Final Summary & Insights
+Produce detailed analytics:
+1. Display Final Cleaned ticket_data
+Nicely formatted dictionary-of-lists output.
+2. Priority Analysis
+Compute:
+● Number of High-priority tickets
+● Number of Medium priority tickets
+● Number of Low-Priority tickets
+3. Find the Ticket With the Longest Issue Description
+Based on word count, print:
+● Ticket number
+● Customer name
+● Cleaned issue text
+● Word count
+4. Extract Unique Words Used
+Generate a set of all unique words across all issue descriptions.
+Show:
+● Count of unique words
+● The word list (sorted)
