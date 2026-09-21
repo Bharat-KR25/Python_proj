@@ -184,6 +184,8 @@ number from the loop.
 3. Display the Multiplication Table:
 Print each line of the multiplication table in the format "number x i = result."
 
+# Module End Assignment: Python
+“Customer Support Ticket Analyzer”
 Assignment Task Overview
 Project Title: Customer Support Ticket Analyser
 Problem Statement
