@@ -14,9 +14,6 @@ A beginner-friendly Python project that manages customer support tickets using c
 - [How It Works](#-how-it-works)
 - [Sample Output](#-sample-output)
 - [Limitations](#-limitations)
-- [Future Improvements](#-future-improvements)
-- [Project Structure](#-project-structure)
-- [Contributing](#-contributing)
 
 ## ✨ Features
 
